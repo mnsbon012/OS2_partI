@@ -1,0 +1,21 @@
+# Makefile
+# Bonnie Mansvelt
+# MNSBON012
+
+JAVAC=/usr/bin/javac
+
+.SUFFIXES: .java .class
+
+.java.class:
+	$(JAVAC) $<
+
+CLASSES = \ TreeGrow.class \ SunData.class \ Simulation.class \ ForestPanel.class \ ForestGrow.class \ Tree.class \ Land.class 
+
+classes: $(CLASSES:.java=.class)
+
+default: $(CLASSES)
+
+docs:
+	javadoc *.java
+clean:
+	$(RM) *.class

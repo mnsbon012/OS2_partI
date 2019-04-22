@@ -1,11 +1,15 @@
+// Bonnie Mansvelt
+// MNSBON012
+
+
 package BarrierS;
 
 // class to run barrier simulation
 public class BarrierTest {
 	public static void main(String[] args) {
 		
-		int n = Integer.parseInt(args[0]); //size of barrier
-		int t = Integer.parseInt(args[1]); // number of threads
+		int n = 5;//Integer.parseInt(args[0]); //size of barrier
+		int t = 10;//Integer.parseInt(args[1]); // number of threads
 		
 		Barrier sharedBarrier = new Barrier(n);
 		
