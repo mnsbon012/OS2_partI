@@ -3,22 +3,23 @@
 # MNSBON012
 
 
-JFLAGS = -g
-JC = javac
-
+JAVAC =/usr/bin/javac
 .SUFFIXES: .java .class
 
 .java.class:
-	$(JC) $(JFLAGS) $*.java
+	javac -g -d bin/ -cp bin/ $*.java
 
 CLASSES = \
-	BarrierS/BarrierTest.java \
-	BarrierS/BThread.java \
-	BarrierS/Barrier.java
+	src/BarrierS/Barrier.java \
+	src/BarrierS/BThread.java \
+	src/BarrierS/BarrierTest.java 
+	
+	
 
 default: classes
 
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) BarrierS/*.class
+	$(RM) bin/BarrierS/*.class
+

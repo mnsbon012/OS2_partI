@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa2ea8ec-21c3-42a7-8911-54da270122ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/part 1/BarrierS/Barrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/part 1/BarrierS/Barrier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/part 1/BarrierS/BarrierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/part 1/BarrierS/BarrierTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BarrierS/BThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BarrierS/Barrier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BarrierS/BarrierTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="fa2ea8ec-21c3-42a7-8911-54da270122ef" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +13,7 @@
     <session id="-1901106149">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.opened" value="2" />
@@ -76,7 +68,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BarrierS/Barrier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="139">
               <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
@@ -107,8 +99,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="471" />
-    <option name="y" value="80" />
+    <option name="x" value="656" />
+    <option name="y" value="502" />
     <option name="width" value="929" />
     <option name="height" value="626" />
   </component>
@@ -147,7 +139,7 @@
     <property name="SearchEverywhereHistoryKey" value="Barrier&#9;FILE&#9;file:///Users/bonniemansvelt/Documents/CSC/CSC3002F/OS 2/part 1/src/BarrierS/Barrier.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555962216902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555963826331" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -216,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555877628343</updated>
       <workItem from="1555877629769" duration="2483000" />
-      <workItem from="1555947394963" duration="10283000" />
+      <workItem from="1555947394963" duration="10793000" />
     </task>
     <servers />
   </component>
@@ -235,10 +227,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12766000" />
+    <option name="totallyTimeSpent" value="13276000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="471" y="80" width="929" height="626" extended-state="0" />
+    <frame x="656" y="502" width="929" height="626" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21307778" />
@@ -250,7 +242,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36142322" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36142322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BarrierS/Barrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="139">
           <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>

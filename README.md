@@ -1,6 +1,10 @@
 # OS2_partI
 
-unzip folder and use "make" command in terminal 
-run the BarrierTest.java program with 2 arguments 
-    first being the size of the barrier
-    second the number of threads
+unzip folder
+in terminal: 
+    in part 2 directory use "make" command 
+    "cd bin"
+    "java BarrierS/BarrierTest arg[0] arg[1]"
+    where:
+        arg[0] = barrier size
+        arg[1] = number of threads
